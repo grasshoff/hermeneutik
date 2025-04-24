@@ -1,1 +1,17 @@
+# Quarto build directory
+_build/
+.quarto/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.ipynb_checkpoints
+
 /.quarto/

@@ -1,0 +1,107 @@
+/*-- scss:defaults --*/
+:root {
+  --primary-color: #003366;
+  --secondary-color: #6c757d;
+  --accent-color: #8a2be2;
+  --text-color: #333;
+  --link-color: #0056b3;
+  --heading-color: #003366;
+  --bg-light: #f8f9fa;
+}
+
+/*-- scss:rules --*/
+/* Global styles */
+body {
+  font-family: "Noto Serif", Georgia, serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+/* Custom top banner */
+body::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: var(--primary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1rem;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+/* Code blocks */
+pre, code {
+  border-radius: 3px;
+}
+
+/* Emphasis for important concepts */
+.concept {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+/* Footer */
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+/* Print styles */
+@media print {
+  body {
+    font-size: 11pt;
+  }
+  
+  .navbar, .sidebar {
+    display: none;
+  }
+  
+  .main-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+} 

@@ -11,13 +11,15 @@ project:
     browser: true
 
 website:
-  title: "Über Gewissheit - Wittgenstein ausgelegt"
+  title: "Hermeneutik - Seminar"
   navbar:
-    background: "#002147"
+    background: "#003366"
     search: true
     left:
       - text: "Startseite"
         href: index.html
+      - text: "Sitzungen"
+        href: sitzung.html
   sidebar:
     style: docked
     search: true
@@ -25,21 +27,13 @@ website:
       - section: "**Überblick**"
         contents:
           - index.qmd
-      - section: "**Manuskript und Editionsgeschichte**"
+      - section: "**Seminar-Protokolle**"
         contents:
-          - wittgenstein-werke.qmd
-          - faksimile.qmd
-          - ueber-gewissheit.qmd
-      - section: "**Seminar-Reportagen**"
-        contents:
-          - sitzung1.qmd
-      - section: "**Anhang**"
-        contents:
-          - references.qmd
+          - sitzung.qmd
 
 format:
   html:
-    theme: flatly
+    theme: cosmo
     css: styles.css
     toc: true
     toc-depth: 3
