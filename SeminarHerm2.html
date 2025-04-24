@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Seminarprotokoll">
+<meta name="author" content="Gerd Graßhoff">
 <meta name="dcterms.date" content="2025-04-24">
 
-<title>Hermeneutik im 21. Jahrhundert – Hermeneutik der AI</title>
+<title>KI-gestützte Hermeneutik – Hermeneutik der AI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./SeminarHerm1.html"><strong>Kapitel</strong></a></li><li class="breadcrumb-item"><a href="./SeminarHerm2.html">Hermeneutik im 21. Jahrhundert</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./SeminarHerm1.html"><strong>Kapitel</strong></a></li><li class="breadcrumb-item"><a href="./SeminarHerm2.html">KI-gestützte Hermeneutik</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,13 +159,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./SeminarHerm1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hermeneutik im 21. Jahrhundert</span></a>
+ <span class="menu-text">AI-Hermeneutik</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./SeminarHerm2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Hermeneutik im 21. Jahrhundert</span></a>
+ <span class="menu-text">KI-gestützte Hermeneutik</span></a>
   </div>
 </li>
       </ul>
@@ -183,38 +183,29 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#ai-reporter" id="toc-ai-reporter" class="nav-link active" data-scroll-target="#ai-reporter"><span class="header-section-number">1</span> AI-Reporter</a></li>
   <li><a href="#übung-1-hermeneutische-strukturanalyse-von-narrativen" id="toc-übung-1-hermeneutische-strukturanalyse-von-narrativen" class="nav-link" data-scroll-target="#übung-1-hermeneutische-strukturanalyse-von-narrativen"><span class="header-section-number">2</span> Übung 1: Hermeneutische Strukturanalyse von Narrativen</a></li>
   <li><a href="#hermeneutische-zielsetzung-und-praktische-durchführung" id="toc-hermeneutische-zielsetzung-und-praktische-durchführung" class="nav-link" data-scroll-target="#hermeneutische-zielsetzung-und-praktische-durchführung"><span class="header-section-number">3</span> Hermeneutische Zielsetzung und praktische Durchführung</a></li>
-  <li><a href="#die-google-ai-studio-arbeitsumgebung" id="toc-die-google-ai-studio-arbeitsumgebung" class="nav-link" data-scroll-target="#die-google-ai-studio-arbeitsumgebung"><span class="header-section-number">4</span> Die Google AI Studio Arbeitsumgebung</a></li>
-  <li><a href="#modelltypen-und-kostenstruktur" id="toc-modelltypen-und-kostenstruktur" class="nav-link" data-scroll-target="#modelltypen-und-kostenstruktur"><span class="header-section-number">5</span> Modelltypen und Kostenstruktur</a></li>
-  <li><a href="#grundlegende-fähigkeiten-der-ki-modelle" id="toc-grundlegende-fähigkeiten-der-ki-modelle" class="nav-link" data-scroll-target="#grundlegende-fähigkeiten-der-ki-modelle"><span class="header-section-number">6</span> Grundlegende Fähigkeiten der KI-Modelle</a>
+  <li><a href="#google-ai-studio" id="toc-google-ai-studio" class="nav-link" data-scroll-target="#google-ai-studio"><span class="header-section-number">4</span> Google AI Studio</a></li>
+  <li><a href="#modelle-flash-vs.-pro" id="toc-modelle-flash-vs.-pro" class="nav-link" data-scroll-target="#modelle-flash-vs.-pro"><span class="header-section-number">5</span> Modelle: Flash vs.&nbsp;Pro</a></li>
+  <li><a href="#ki-für-spezifische-aufgaben" id="toc-ki-für-spezifische-aufgaben" class="nav-link" data-scroll-target="#ki-für-spezifische-aufgaben"><span class="header-section-number">6</span> KI für spezifische Aufgaben</a></li>
+  <li><a href="#prompt-als-komplexe-anfrage" id="toc-prompt-als-komplexe-anfrage" class="nav-link" data-scroll-target="#prompt-als-komplexe-anfrage"><span class="header-section-number">7</span> Prompt als komplexe Anfrage</a>
   <ul class="collapse">
-  <li><a href="#sprachkompetenz" id="toc-sprachkompetenz" class="nav-link" data-scroll-target="#sprachkompetenz"><span class="header-section-number">6.1</span> Sprachkompetenz</a></li>
-  <li><a href="#reasoning-thinking" id="toc-reasoning-thinking" class="nav-link" data-scroll-target="#reasoning-thinking"><span class="header-section-number">6.2</span> “Reasoning” (Thinking)</a></li>
-  <li><a href="#multimodale-fähigkeiten" id="toc-multimodale-fähigkeiten" class="nav-link" data-scroll-target="#multimodale-fähigkeiten"><span class="header-section-number">6.3</span> Multimodale Fähigkeiten</a></li>
+  <li><a href="#der-planungsprozess-der-ki" id="toc-der-planungsprozess-der-ki" class="nav-link" data-scroll-target="#der-planungsprozess-der-ki"><span class="header-section-number">7.1</span> Der Planungsprozess der KI</a></li>
+  <li><a href="#definition-des-schemas-durch-die-ki" id="toc-definition-des-schemas-durch-die-ki" class="nav-link" data-scroll-target="#definition-des-schemas-durch-die-ki"><span class="header-section-number">7.2</span> Definition des Schemas durch die KI</a></li>
+  <li><a href="#das-ergebnis-die-analyse" id="toc-das-ergebnis-die-analyse" class="nav-link" data-scroll-target="#das-ergebnis-die-analyse"><span class="header-section-number">7.3</span> Das Ergebnis: Die Analyse</a></li>
+  <li><a href="#interaktion-und-iteration-mit-dem-plan" id="toc-interaktion-und-iteration-mit-dem-plan" class="nav-link" data-scroll-target="#interaktion-und-iteration-mit-dem-plan"><span class="header-section-number">7.4</span> Interaktion und Iteration mit dem Plan</a></li>
   </ul></li>
-  <li><a href="#unterschiede-zwischen-modellen-flash-vs.-pro" id="toc-unterschiede-zwischen-modellen-flash-vs.-pro" class="nav-link" data-scroll-target="#unterschiede-zwischen-modellen-flash-vs.-pro"><span class="header-section-number">7</span> Unterschiede zwischen Modellen (Flash vs.&nbsp;Pro)</a></li>
-  <li><a href="#token-limits-und-verarbeitungskapazität" id="toc-token-limits-und-verarbeitungskapazität" class="nav-link" data-scroll-target="#token-limits-und-verarbeitungskapazität"><span class="header-section-number">8</span> Token-Limits und Verarbeitungskapazität</a></li>
-  <li><a href="#tei-textkodierung-und-ki-gestützte-textanalyse" id="toc-tei-textkodierung-und-ki-gestützte-textanalyse" class="nav-link" data-scroll-target="#tei-textkodierung-und-ki-gestützte-textanalyse"><span class="header-section-number">9</span> TEI-Textkodierung und KI-gestützte Textanalyse</a></li>
-  <li><a href="#anwendung-der-ki-für-spezifische-aufgaben" id="toc-anwendung-der-ki-für-spezifische-aufgaben" class="nav-link" data-scroll-target="#anwendung-der-ki-für-spezifische-aufgaben"><span class="header-section-number">10</span> Anwendung der KI für spezifische Aufgaben</a></li>
-  <li><a href="#die-instruction-als-komplexe-anfrage" id="toc-die-instruction-als-komplexe-anfrage" class="nav-link" data-scroll-target="#die-instruction-als-komplexe-anfrage"><span class="header-section-number">11</span> Die “Instruction” als komplexe Anfrage</a>
-  <ul class="collapse">
-  <li><a href="#der-planungsprozess-der-ki" id="toc-der-planungsprozess-der-ki" class="nav-link" data-scroll-target="#der-planungsprozess-der-ki"><span class="header-section-number">11.1</span> Der Planungsprozess der KI</a></li>
-  <li><a href="#definition-des-schemas-durch-die-ki" id="toc-definition-des-schemas-durch-die-ki" class="nav-link" data-scroll-target="#definition-des-schemas-durch-die-ki"><span class="header-section-number">11.2</span> Definition des Schemas durch die KI</a></li>
-  <li><a href="#das-ergebnis-die-analyse" id="toc-das-ergebnis-die-analyse" class="nav-link" data-scroll-target="#das-ergebnis-die-analyse"><span class="header-section-number">11.3</span> Das Ergebnis: Die Analyse</a></li>
-  <li><a href="#interaktion-und-iteration-mit-dem-plan" id="toc-interaktion-und-iteration-mit-dem-plan" class="nav-link" data-scroll-target="#interaktion-und-iteration-mit-dem-plan"><span class="header-section-number">11.4</span> Interaktion und Iteration mit dem Plan</a></li>
-  </ul></li>
-  <li><a href="#seminarplan-und-ausblick" id="toc-seminarplan-und-ausblick" class="nav-link" data-scroll-target="#seminarplan-und-ausblick"><span class="header-section-number">12</span> Seminarplan und Ausblick</a></li>
-  <li><a href="#beispiele-für-mögliche-themen-und-aufgaben" id="toc-beispiele-für-mögliche-themen-und-aufgaben" class="nav-link" data-scroll-target="#beispiele-für-mögliche-themen-und-aufgaben"><span class="header-section-number">13</span> Beispiele für mögliche Themen und Aufgaben</a></li>
-  <li><a href="#organisatorisches" id="toc-organisatorisches" class="nav-link" data-scroll-target="#organisatorisches"><span class="header-section-number">14</span> Organisatorisches</a></li>
+  <li><a href="#seminarplan-und-ausblick" id="toc-seminarplan-und-ausblick" class="nav-link" data-scroll-target="#seminarplan-und-ausblick"><span class="header-section-number">8</span> Seminarplan und Ausblick</a></li>
+  <li><a href="#beispiele-für-mögliche-themen-und-aufgaben" id="toc-beispiele-für-mögliche-themen-und-aufgaben" class="nav-link" data-scroll-target="#beispiele-für-mögliche-themen-und-aufgaben"><span class="header-section-number">9</span> Beispiele für mögliche Themen und Aufgaben</a></li>
+  <li><a href="#organisatorisches" id="toc-organisatorisches" class="nav-link" data-scroll-target="#organisatorisches"><span class="header-section-number">10</span> Organisatorisches</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./SeminarHerm1.html"><strong>Kapitel</strong></a></li><li class="breadcrumb-item"><a href="./SeminarHerm2.html">Hermeneutik im 21. Jahrhundert</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./SeminarHerm1.html"><strong>Kapitel</strong></a></li><li class="breadcrumb-item"><a href="./SeminarHerm2.html">KI-gestützte Hermeneutik</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Hermeneutik im 21. Jahrhundert</h1>
-<p class="subtitle lead">Praktische Anwendung hermeneutischer Methoden mit KI-Werkzeugen</p>
+<h1 class="title">KI-gestützte Hermeneutik</h1>
+<p class="subtitle lead">Sitzung 2: Strukturanalyse</p>
 </div>
 
 
@@ -224,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Seminarprotokoll </p>
+             <p>Gerd Graßhoff </p>
           </div>
   </div>
     
@@ -245,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="ai-reporter" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="ai-reporter"><span class="header-section-number">1</span> AI-Reporter</h2>
-<p>Der “AI Reporter” zeichnet die Seminarinhalte auf und stellt sie direkt auf der <a href="https://hermeneutik.grasshoff.college">Seminar-Website</a> bereit. Dieses Werkzeug erzeugt automatisch Mitschriften, die alle wichtigen Punkte festhalten. Auf hermeneutik.grassehoff.college finden Sie jede Woche aktuelle Materialien, Resultate und Thesen. Die Seite dokumentiert unsere gemeinsame Arbeit fortlaufend. Mit Einverständnis der Studierenden zeigen wir dort auch ihre Projektarbeiten und Schwerpunktthemen, was den Austausch fördert.</p>
+<p>Der “AI Reporter” zeichnet die Seminarinhalte auf und stellt sie direkt auf der <a href="https://hermeneutik.grasshoff.college">Seminar-Website</a> bereit. Dieses Werkzeug erzeugt automatisch Mitschriften, die alle wichtigen Punkte festhalten. Auf hermeneutik.grasshoff.college finden Sie jede Woche aktuelle Materialien, Resultate und Thesen. Die Seite dokumentiert unsere gemeinsame Arbeit fortlaufend. Mit Einverständnis der Studierenden zeigen wir dort auch ihre Projektarbeiten und Schwerpunktthemen, was den Austausch fördert.</p>
 <p>Google AI Studio bildet die zentrale Arbeitsumgebung des Seminars. Die klar strukturierte Oberfläche unterstützt hermeneutische Analysen und erleichtert den Arbeitsablauf.</p>
 </section>
 <section id="übung-1-hermeneutische-strukturanalyse-von-narrativen" class="level2" data-number="2">
@@ -272,8 +263,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Wir arbeiten praktisch in Google AI Studio mit seiner charakteristischen Spaltenstruktur und spezifischen Benutzerschnittstelle. Die linke Spalte enthält zwar derzeit für unser Vorhaben nicht unmittelbar relevante Elemente (“Stream”, “Video Gen”, “Starter Apps”), lässt sich aber für eine bessere Übersicht ausblenden. Das lenkt den Fokus auf die wesentlichen Arbeitsbereiche.</p>
 <p>Wir interagieren mit der KI im Chat-Modus, ähnlich wie bei ChatGPT, aber mit erweiterten Analysefunktionen. Der Chat-Prompt steht oben links im Mittelfeld, das Chat-Feld direkt darunter. Besonders wertvoll für die kontinuierliche Seminararbeit: Die “History”-Funktion speichert alle früheren Chats automatisch und erleichtert jederzeit den Überblick bei der Bearbeitung mehrer paralleler Themen. Diese Chats bleiben dauerhaft erhalten, auch bei Sitzungsunterbrechungen.</p>
 </section>
-<section id="die-google-ai-studio-arbeitsumgebung" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="die-google-ai-studio-arbeitsumgebung"><span class="header-section-number">4</span> Die Google AI Studio Arbeitsumgebung</h2>
+<section id="google-ai-studio" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="google-ai-studio"><span class="header-section-number">4</span> Google AI Studio</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="./img/ai-studio.jpg" class="img-fluid figure-img"></p>
@@ -289,39 +280,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Die innovative Plattform verschafft uns Zugang zu verschiedenen Google-Modellen mit unterschiedlichen Leistungsprofilen und Kostenstufen. Diese heben sich in ihren spezifischen Fähigkeiten und Anwendungsschwerpunkten deutlich voneinander ab. Im kompetitiven KI-Markt positionieren sich die Google-Modelle aktuell als preisgünstigste Optionen bei vergleichbarer Leistungsfähigkeit.</p>
 </section>
-<section id="modelltypen-und-kostenstruktur" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="modelltypen-und-kostenstruktur"><span class="header-section-number">5</span> Modelltypen und Kostenstruktur</h2>
-<p>Die Google-Modelle heißen aktuell “Preview” und “Pro” (früher unter dem Label “Experimental” verfügbar). Die Preview-Modelle nutzen wir für Forschungs- und Bildungszwecke kostenfrei, was sie im Seminarkontext besonders attraktiv macht.</p>
-<p>Bei den kostenpflichtigen Modellvarianten berechnet sich der Preis anhand von “Tokens” – einer Maßeinheit, grob vergleichbar mit Wörtern. Auch Satzzeichen, Formatierungen und andere Elemente zählen als separate Tokens. Die Preiskalkulation unterscheidet sorgfältig zwischen Input (Nutzereingabe) und Output (KI-Antwort):</p>
-<ul>
-<li>Eine Million Input-Tokens kosten etwa 15 Cent. Das bleibt selbst bei umfangreichen Texteingaben sehr kostengünstig.</li>
-<li>Output-Tokens wiegen mit dem etwa 20-fachen Preis deutlich schwerer, da hier die eigentliche Rechenleistung der Modelle wirkt.</li>
-<li>Die Tokenberechnung umfasst neben dem reinen Text auch sämtliche Anweisungen, Formatierungen und Bilder. Das sollten wir bei der Kostenplanung berücksichtigen.</li>
-</ul>
-<p>Die kostenfreien Preview-Modelle haben bestimmte Rate-Limits. Diese gewährleisten eine faire Ressourcenverteilung. Bei der Gemini 2.5-Modellreihe liegen diese Limits bei 500 Anfragen pro Tag und 10 Anfragen pro Minute. Diese Werte reichen für die intensive Seminararbeit völlig aus und schränken uns praktisch nicht ein.</p>
-</section>
-<section id="grundlegende-fähigkeiten-der-ki-modelle" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="grundlegende-fähigkeiten-der-ki-modelle"><span class="header-section-number">6</span> Grundlegende Fähigkeiten der KI-Modelle</h2>
-<section id="sprachkompetenz" class="level3" data-number="6.1">
-<h3 data-number="6.1" class="anchored" data-anchor-id="sprachkompetenz"><span class="header-section-number">6.1</span> Sprachkompetenz</h3>
-<p>Ursprüngliche KI-Modelle fokussierten ausschließlich auf Sprachverarbeitung und -generierung. Ihr umfangreiches Training sollte primär komplexe sprachliche Bedeutungen erfassen und vielfältige Instruktionen verstehen. So konnten sie kontextuell passende und kohärente Textantworten generieren.</p>
-<p>Die faszinierende Entwicklungsgeschichte der Large Language Models (LLMs) beginnt ursprünglich bei der klassischen Übersetzungsarbeit und maschinellen Sprachverarbeitung. Das mehrschichtige Training nutzte diverse, sorgfältig kuratierte Sprachkorpora. Deutsche und lateinische Texte, insbesondere die für ihre Präzision bekannte Teubner Latine Edition, dienten dabei als maßgeblicher Qualitätsmaßstab. Diese philologische Grundlage erklärt teilweise, warum heutige Modelle eine so bemerkenswerte Sprachkompetenz besitzen.</p>
-<p>Diese sophistizierten Modelle zeigen ausgeprägte sprachliche Kompetenz und sprachliche Flexibilität, besitzen jedoch kein eigentliches inhaltliches Fachwissen. Was in Interaktionen wie domänenspezifische Expertise wirkt, erzeugen die Modelle durch reine linguistische Musterreplikation und statistische Vorhersagen – eine wichtige Unterscheidung, die wir bei der kritischen Beurteilung von KI-Outputs stets berücksichtigen müssen.</p>
-</section>
-<section id="reasoning-thinking" class="level3" data-number="6.2">
-<h3 data-number="6.2" class="anchored" data-anchor-id="reasoning-thinking"><span class="header-section-number">6.2</span> “Reasoning” (Thinking)</h3>
-<p>Fortgeschrittene Modelle, besonders in der leistungsfähigeren Pro-Variante, bieten zusätzlich ausgereifte “Reasoning”- oder “Thinking”-Fähigkeiten. Diese gehen über simple Sprachverarbeitung hinaus. Diese kognitive Komponente verbessert die inhaltliche Zuverlässigkeit erheblich. Einfachere Modelle neigen nämlich zur problematischen “Halluzination”: Sie generieren stets eine vermeintlich plausible Antwort, selbst wenn ihnen fundamentales Wissen fehlt.</p>
-<p>Die zusätzliche epistemische Komponente – hierfür schlage ich den Begriff “Computational Epistemology” als Bezeichnung für eine neue Disziplin vor – untersucht systematisch KI-Techniken in Bezug auf Wissenserwerb, Wissenskritik und Wissensrechtfertigung. Dabei umfasst “Wissen” nicht nur propositionales Sachwissen, sondern auch Handlungswissen (“Wissen, wie”) und hermeneutisches Wissen (Methoden des Verstehens), das im Zentrum dieses Seminars steht. Diese Fähigkeit kommt menschlichen Denkprozessen schrittweise näher, beschränkt sich jedoch auf bestimmte Domänen.</p>
-<p>Bei den Google-Modellen läuft dieser komplexe Denkprozess nicht nur implizit ab, sondern das System stellt ihn explizit in einem separaten “Thinking”-Kasten transparent dar. Diese ungewöhnliche Offenlegung interner Prozesse gewährt Einblicke in die Arbeitsweise der KI. Die Modelle zerlegen komplexe Aufgabenstellungen methodisch in logische Teilschritte und lösen sie systematisch. Diese Vorgehensweise ähnelt erstaunlich menschlichen Problemlösungsstrategien.</p>
-</section>
-<section id="multimodale-fähigkeiten" class="level3" data-number="6.3">
-<h3 data-number="6.3" class="anchored" data-anchor-id="multimodale-fähigkeiten"><span class="header-section-number">6.3</span> Multimodale Fähigkeiten</h3>
-<p>Die Gemini-Modellgeneration besticht durch ihre fortschrittliche gleichzeitige Verarbeitung verschiedener Informationstypen. Sie integriert insbesondere Text und Bild (einschließlich Video) nahtlos. Diese ausgeprägte multimodale Fähigkeit erlaubt insbesondere hochwertige OCR-Aufgaben (Optical Character Recognition) mit beeindruckender Genauigkeit.</p>
-<p>So können wir gescannte historische Dokumente oder Fotografien von Originalmanuskripten nicht nur mechanisch transkribieren, sondern auch strukturell analysieren, semantisch gliedern und bei Bedarf in moderne Sprachen übersetzen. Die Modelle erkennen dabei layoutbezogene Elemente wie Kopfzeilen, Seitennummern, Haupttextblöcke und Fußnoten mit bemerkenswert hoher Präzision und kontextueller Einordnung.</p>
-</section>
-</section>
-<section id="unterschiede-zwischen-modellen-flash-vs.-pro" class="level2" data-number="7">
-<h2 data-number="7" class="anchored" data-anchor-id="unterschiede-zwischen-modellen-flash-vs.-pro"><span class="header-section-number">7</span> Unterschiede zwischen Modellen (Flash vs.&nbsp;Pro)</h2>
+<section id="modelle-flash-vs.-pro" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="modelle-flash-vs.-pro"><span class="header-section-number">5</span> Modelle: Flash vs.&nbsp;Pro</h2>
 <p>Die verfügbaren Flash- und Pro-Modellvarianten unterscheiden sich in mehreren entscheidenden Dimensionen. Diese sollten wir je nach Anwendungsfall sorgfältig abwägen:</p>
 <ul>
 <li><p><strong>Preisstruktur</strong>: Die kostengünstigen Preview-Modelle (Flash und Pro Preview) verursachen deutlich geringere Betriebskosten als die leistungsfähigere Pro-Version mit vollem Funktionsumfang. Für viele Standardanwendungen genügen die Preview-Modelle jedoch völlig.</p></li>
@@ -330,26 +290,16 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Sprachliche Differenzierung</strong>: Interessanterweise hängt die Sprachqualität nicht linear von der Versionsnummer oder Aktualität der Modelle ab: Ältere oder auf bestimmte Domänen spezialisierte Modellvarianten übertreffen neuere Generationen gelegentlich in Vielfalt, stilistischer Raffinesse und Nuancierung. Diese Beobachtung läuft der intuitiven Annahme einer stetigen Verbesserung über Modellgenerationen hinweg zuwider.</p></li>
 </ul>
 </section>
-<section id="token-limits-und-verarbeitungskapazität" class="level2" data-number="8">
-<h2 data-number="8" class="anchored" data-anchor-id="token-limits-und-verarbeitungskapazität"><span class="header-section-number">8</span> Token-Limits und Verarbeitungskapazität</h2>
-<p>Die aktuellen Google-Modelle (Gemini 1.5) beeindrucken mit ihrer revolutionär erhöhten Token-Kapazität von über einer Million (präzise: 1.048.576) Token pro Anfrage. Das ist eine bemerkenswerte tausendfache Steigerung gegenüber früheren technischen Beschränkungen. Diese galten noch vor wenigen Jahren als unüberwindbar.</p>
-<p>Diese dramatisch erweiterte Kapazität erlaubt die umfassende Verarbeitung von etwa 500 Textseiten in einem einzigen Verarbeitungsdurchgang, was neue Anwendungsszenarien für die Analyse umfangreicher Dokumente eröffnet. Besonders bemerkenswert: Die maximale Ausgabelänge (“Output Length”) von 65.000 Tokens übertrifft konkurrierende Claude-Modelle mit ihren begrenzten 8.000 Tokens deutlich. Diese Erweiterung erlaubt uns, auch umfangreiche Vorlesungstranskriptionen, wissenschaftliche Aufsätze oder ganze Buchkapitel in einem Zug zu verarbeiten und zu analysieren. Wir müssen sie nicht künstlich fragmentieren.</p>
-</section>
-<section id="tei-textkodierung-und-ki-gestützte-textanalyse" class="level2" data-number="9">
-<h2 data-number="9" class="anchored" data-anchor-id="tei-textkodierung-und-ki-gestützte-textanalyse"><span class="header-section-number">9</span> TEI-Textkodierung und KI-gestützte Textanalyse</h2>
-<p>Die international anerkannte Text Encoding Initiative (TEI) etablierte sich über drei Jahrzehnte als führender Standard zur strukturierten Textauszeichnung in den Geisteswissenschaften. Mit speziellen “Tags” in spitzen Klammern (ähnlich HTML/XML) markieren Wissenschaftler weltweit Texte nach einheitlichen Regeln. Sie machen so strukturelle, semantische und interpretative Aspekte maschinell erfassbar.</p>
-<p>Die fortschrittlichen KI-Modelle kennen den umfangreichen TEI-Standard<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Sie können Texte entsprechend dieser etablierten wissenschaftlichen Praxis automatisch markieren und strukturieren. Besonders bemerkenswert: Wir formulieren die komplexe Anweisung in natürlicher, alltagssprachlicher Form. Dadurch transformiert die KI einfache, unstrukturierte Rohtexte in wissenschaftlich wertvolle, strukturierte Dokumente mit präzisen semantischen Markierungen.</p>
-</section>
-<section id="anwendung-der-ki-für-spezifische-aufgaben" class="level2" data-number="10">
-<h2 data-number="10" class="anchored" data-anchor-id="anwendung-der-ki-für-spezifische-aufgaben"><span class="header-section-number">10</span> Anwendung der KI für spezifische Aufgaben</h2>
+<section id="ki-für-spezifische-aufgaben" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="ki-für-spezifische-aufgaben"><span class="header-section-number">6</span> KI für spezifische Aufgaben</h2>
 <p>Die KI wendet nicht nur existierende standardisierte TEI-Elemente an, sondern identifiziert und markiert auch projektspezifische, nicht-standardisierte Elemente nach individuellen Forschungsbedürfnissen. So erkennt und klassifiziert sie beispielsweise zeitliche Einordnungen, geologische Beschreibungen, motivationspsychologische Aspekte eines Forschers oder methodologische Überlegungen differenziert nach ihrer semantischen Funktion.</p>
 <p>Dabei bekommt die KI keine vorgefertigte, starre Lösungsschablone. Sie entwickelt vielmehr selbständig einen überzeugenden Analyse- und Kategorisierungsplan, um die spezifische Anforderung zu bewältigen. Diese bemerkenswerte interpretative Flexibilität hilft uns besonders bei der Arbeit mit heterogenen historischen Quellen oder interdisziplinären Texten, wenn wir spezifische, nuancierte Forschungsfragen beantworten müssen. Diese gehen über standardisierte Kategorisierungsschemata hinaus.</p>
 </section>
-<section id="die-instruction-als-komplexe-anfrage" class="level2" data-number="11">
-<h2 data-number="11" class="anchored" data-anchor-id="die-instruction-als-komplexe-anfrage"><span class="header-section-number">11</span> Die “Instruction” als komplexe Anfrage</h2>
+<section id="prompt-als-komplexe-anfrage" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="prompt-als-komplexe-anfrage"><span class="header-section-number">7</span> Prompt als komplexe Anfrage</h2>
 <p>Die anfängliche, oft relativ knappe Textanfrage (“Prompt”) verwandelt sich im transparenten “Thinking Block” in methodisch durchdachte, explizite Lösungsschritte. Der “Run”-Button startet diese komplexe, nun auch vorbereitende Maßnahmen und Qualitätssicherungsschritte umfassende Anfrage und initiiert die eigentliche Verarbeitung.</p>
-<section id="der-planungsprozess-der-ki" class="level3" data-number="11.1">
-<h3 data-number="11.1" class="anchored" data-anchor-id="der-planungsprozess-der-ki"><span class="header-section-number">11.1</span> Der Planungsprozess der KI</h3>
+<section id="der-planungsprozess-der-ki" class="level3" data-number="7.1">
+<h3 data-number="7.1" class="anchored" data-anchor-id="der-planungsprozess-der-ki"><span class="header-section-number">7.1</span> Der Planungsprozess der KI</h3>
 <p>Die KI transformiert die gestellte Aufgabe in einen schrittweisen, im “Thinking Block” für Nutzende vollständig sichtbaren Planungsprozess. Dieser Prozess erlaubt uns Einblicke in die Herangehensweise des Systems. Zunächst klärt die KI präzise das Ziel, die Rahmenbedingungen und die gewünschten Ergebnisformate – vergleichbar mit einer menschlichen Aufgabenanalyse.</p>
 <p>Eine typische Strukturanalyse eines wissenschaftlichen Texts durchläuft mehrere logisch aufeinander aufbauende Phasen:</p>
 <ol type="1">
@@ -358,29 +308,29 @@ ul.task-list li input[type="checkbox"] {
 <li>Sie kategorisiert literaturwissenschaftlich fundiert den narrativen Fluss, die Argumentationsstruktur und die rhetorische Gestaltung des Textes.</li>
 </ol>
 </section>
-<section id="definition-des-schemas-durch-die-ki" class="level3" data-number="11.2">
-<h3 data-number="11.2" class="anchored" data-anchor-id="definition-des-schemas-durch-die-ki"><span class="header-section-number">11.2</span> Definition des Schemas durch die KI</h3>
+<section id="definition-des-schemas-durch-die-ki" class="level3" data-number="7.2">
+<h3 data-number="7.2" class="anchored" data-anchor-id="definition-des-schemas-durch-die-ki"><span class="header-section-number">7.2</span> Definition des Schemas durch die KI</h3>
 <p>Im weiteren Planungsverlauf entwirft die KI selbständig ein differenziertes Schema zur Textklassifikation mit spezifischen semantischen Tags wie “Temporal” für historische Zeitbezüge, “Geological” für geologische Themen oder “Methodological” für Diskussionen wissenschaftlicher Verfahren.</p>
 <p>Besonders faszinierend für unsere hermeneutische Arbeit: Wir können eigene interpretative Klassifikationskonventionen entwerfen. Diese heben genau die für die jeweilige Forschungsfrage interessanten Textaspekte systematisch hervor und setzen sie in Beziehung.</p>
 </section>
-<section id="das-ergebnis-die-analyse" class="level3" data-number="11.3">
-<h3 data-number="11.3" class="anchored" data-anchor-id="das-ergebnis-die-analyse"><span class="header-section-number">11.3</span> Das Ergebnis: Die Analyse</h3>
+<section id="das-ergebnis-die-analyse" class="level3" data-number="7.3">
+<h3 data-number="7.3" class="anchored" data-anchor-id="das-ergebnis-die-analyse"><span class="header-section-number">7.3</span> Das Ergebnis: Die Analyse</h3>
 <p>Das Ergebnis des komplexen Verarbeitungsprozesses erscheint als übersichtlich strukturierter Block im anpassbaren Markdown-Stil mit vollständigen Metadaten zur Provenienz und einer differenzierten Textanalyse. Die Gliederung spiegelt den inhaltlichen und formalen Textaufbau wider. Sie umfasst typischerweise essentielle Abschnitte wie Einleitung, bibliographische Details, historischen Kontext und thematische Unterteilungen mit Querverweisen.</p>
 </section>
-<section id="interaktion-und-iteration-mit-dem-plan" class="level3" data-number="11.4">
-<h3 data-number="11.4" class="anchored" data-anchor-id="interaktion-und-iteration-mit-dem-plan"><span class="header-section-number">11.4</span> Interaktion und Iteration mit dem Plan</h3>
+<section id="interaktion-und-iteration-mit-dem-plan" class="level3" data-number="7.4">
+<h3 data-number="7.4" class="anchored" data-anchor-id="interaktion-und-iteration-mit-dem-plan"><span class="header-section-number">7.4</span> Interaktion und Iteration mit dem Plan</h3>
 <p>Ein herausragendes Merkmal dieser fortschrittlichen Arbeitsumgebung: Der Planungsprozess ist für uns Nutzende vollständig transparent. Wir können den “Thinking Block” direkt kopieren, modifizieren und anpassen. So verfeinern wir spezifische Kategorien, präzisieren Formulierungen oder nehmen konzeptuelle Ergänzungen vor. Den überarbeiteten Plan geben wir dann als neue Aufgabe ein. Das ermöglicht mehrfache iterative Optimierungen im hermeneutischen Zirkel.</p>
 </section>
 </section>
-<section id="seminarplan-und-ausblick" class="level2" data-number="12">
-<h2 data-number="12" class="anchored" data-anchor-id="seminarplan-und-ausblick"><span class="header-section-number">12</span> Seminarplan und Ausblick</h2>
+<section id="seminarplan-und-ausblick" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="seminarplan-und-ausblick"><span class="header-section-number">8</span> Seminarplan und Ausblick</h2>
 <p>Die heutige Sitzung konzentriert sich auf die praktische Handhabung der AI Studio Umgebung und erste methodische Schritte der systematischen Textanalyse. Die zentrale hermeneutische Kernaufgabe: Wir erschließen analytisch ein exemplarisches Text-Template, wie am Beispiel des Rauchhaupt-Artikels demonstriert, und integrieren dieses strukturelle und stilistische Wissen anschließend kreativ in die KI zur Erzeugung vergleichbarer Texte.</p>
 <p>Die grundlegenden Fragen des Seminars knüpfen direkt an die beiden fundamentalen hermeneutischen Säulen an. Diese haben wir in der vorigen Sitzung umfassend diskutiert: erstens die tiefgreifende Interpretation von Texten, Kunstwerken oder Symbolen (Inhaltserschließung) und zweitens die reflektierte Auslegung dieser Interpretation (Inhaltsdarstellung und -vermittlung).</p>
 <p>In den kommenden drei Wochen konzentrieren wir uns in der praktischen Übung auf den ausgewählten Rauchhaupt-Aufsatz und entwickeln systematisch ein differenziertes Schema für wissenschaftliche Rezensionen im digitalen Zeitalter. Der kollegiale Austausch über individuelle Erfahrungen, Erkenntnisse und Herausforderungen bei dieser Aufgabe bildet einen zentralen, diskursiven Bestandteil des Seminars. Er fördert die gemeinsame methodologische Reflexion.</p>
 <p>Eine intellektuell reizvolle Alternative: Wir untersuchen strukturanalytisch ein exemplarisches Interview, um ein transferfähiges Interview-Schema zu entwickeln. Hierbei fragen wir uns methodisch, ob die KI ein vorliegendes Interview in eine neue, ansprechende und lesbare Form überführen kann, ohne den inhaltlichen Kern zu verfälschen.</p>
 </section>
-<section id="beispiele-für-mögliche-themen-und-aufgaben" class="level2" data-number="13">
-<h2 data-number="13" class="anchored" data-anchor-id="beispiele-für-mögliche-themen-und-aufgaben"><span class="header-section-number">13</span> Beispiele für mögliche Themen und Aufgaben</h2>
+<section id="beispiele-für-mögliche-themen-und-aufgaben" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="beispiele-für-mögliche-themen-und-aufgaben"><span class="header-section-number">9</span> Beispiele für mögliche Themen und Aufgaben</h2>
 <p>Das Seminar zeigt verschiedene thematisch anspruchsvolle Möglichkeiten für eigenständige hermeneutische Projekte:</p>
 <ul>
 <li><p><strong>Historische Textanalyse</strong>: Akkadianische Quellen zum dramatischen Untergang des persischen Reiches aus der einzigartigen Perspektive eines babylonischen Astronomen während Alexanders Invasion. Diese faszinierende Perspektive ermöglicht die Rekonstruktion wissenschaftlicher und kultureller Transformationsprozesse in Umbruchszeiten. Wir zielen auf eine wissenschaftlich fundierte, zitierfähige Analyse, die relevante Originalquellen präzise einbezieht und kontextuell einbettet.</p></li>
@@ -389,20 +339,14 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Wir sollten die gewählten Aufgaben mit zwei bis drei präzisen, wohlformulierten Prompts bearbeiten können. Sie sollten einen klar definierten, spezifischen Aspekt des gewählten Themas fokussieren, damit wir Tiefe statt enzyklopädischer Breite erreichen.</p>
 </section>
-<section id="organisatorisches" class="level2" data-number="14">
-<h2 data-number="14" class="anchored" data-anchor-id="organisatorisches"><span class="header-section-number">14</span> Organisatorisches</h2>
+<section id="organisatorisches" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="organisatorisches"><span class="header-section-number">10</span> Organisatorisches</h2>
 <p>Wir treffen uns zum nächsten Seminar in drei Wochen, da Feiertage dazwischenliegen. Bis dahin sollte jeder seine individuelle Themenwahl abgeschlossen und konzeptuell durchdacht haben. In der kommenden Sitzung legen wir die Themen verbindlich fest. Das ermöglicht kontinuierliches Arbeiten und vermeidet weitere thematische Fluktuation. Die erarbeiteten AI Studio Lösungen teilen wir über persistente Links und diskutieren sie gemeinsam im Plenum. Dabei präsentieren die Studierenden nicht nur ihre konkreten Ergebnisse, sondern reflektieren auch kritisch ihre methodischen Erfahrungen, konzeptuellen Überlegungen und aufgetretenen Herausforderungen.</p>
 
 
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Eine umfassende Spezifikation bietet die TEI Consortium Website, insbesondere der Abschnitt “Guidelines” unter https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
