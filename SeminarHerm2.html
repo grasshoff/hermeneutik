@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Seminarprotokoll">
+<meta name="dcterms.date" content="2025-04-24">
+
+<title>Hermeneutik im 21. Jahrhundert – Hermeneutik der AI</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-985aa47af68dae11cd4d235c71fb941e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-aa19ef07380ad6a73b944ccdc372786b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Hermeneutik der AI</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Startseite</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sitzung.html"> 
+<span class="menu-text">Sitzungen</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./SeminarHerm1.html"><strong>Kapitel</strong></a></li><li class="breadcrumb-item"><a href="./SeminarHerm2.html">Hermeneutik im 21. Jahrhundert</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text"><strong>Überblick</strong></span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernziele</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text"><strong>Kapitel</strong></span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SeminarHerm1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hermeneutik im 21. Jahrhundert</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SeminarHerm2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Hermeneutik im 21. Jahrhundert</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ai-reporter" id="toc-ai-reporter" class="nav-link active" data-scroll-target="#ai-reporter"><span class="header-section-number">1</span> AI-Reporter</a></li>
+  <li><a href="#textgrundlage-und-übungsaufgabe" id="toc-textgrundlage-und-übungsaufgabe" class="nav-link" data-scroll-target="#textgrundlage-und-übungsaufgabe"><span class="header-section-number">2</span> Textgrundlage und Übungsaufgabe</a></li>
+  <li><a href="#hermeneutische-zielsetzung-und-praktische-durchführung" id="toc-hermeneutische-zielsetzung-und-praktische-durchführung" class="nav-link" data-scroll-target="#hermeneutische-zielsetzung-und-praktische-durchführung"><span class="header-section-number">3</span> Hermeneutische Zielsetzung und praktische Durchführung</a></li>
+  <li><a href="#die-google-ai-studio-arbeitsumgebung" id="toc-die-google-ai-studio-arbeitsumgebung" class="nav-link" data-scroll-target="#die-google-ai-studio-arbeitsumgebung"><span class="header-section-number">4</span> Die Google AI Studio Arbeitsumgebung</a></li>
+  <li><a href="#modelltypen-und-kostenstruktur" id="toc-modelltypen-und-kostenstruktur" class="nav-link" data-scroll-target="#modelltypen-und-kostenstruktur"><span class="header-section-number">5</span> Modelltypen und Kostenstruktur</a></li>
+  <li><a href="#grundlegende-fähigkeiten-der-ki-modelle" id="toc-grundlegende-fähigkeiten-der-ki-modelle" class="nav-link" data-scroll-target="#grundlegende-fähigkeiten-der-ki-modelle"><span class="header-section-number">6</span> Grundlegende Fähigkeiten der KI-Modelle</a>
+  <ul class="collapse">
+  <li><a href="#sprachkompetenz" id="toc-sprachkompetenz" class="nav-link" data-scroll-target="#sprachkompetenz"><span class="header-section-number">6.1</span> Sprachkompetenz</a></li>
+  <li><a href="#reasoning-thinking" id="toc-reasoning-thinking" class="nav-link" data-scroll-target="#reasoning-thinking"><span class="header-section-number">6.2</span> “Reasoning” (Thinking)</a></li>
+  <li><a href="#multimodale-fähigkeiten" id="toc-multimodale-fähigkeiten" class="nav-link" data-scroll-target="#multimodale-fähigkeiten"><span class="header-section-number">6.3</span> Multimodale Fähigkeiten</a></li>
+  </ul></li>
+  <li><a href="#unterschiede-zwischen-modellen-flash-vs.-pro" id="toc-unterschiede-zwischen-modellen-flash-vs.-pro" class="nav-link" data-scroll-target="#unterschiede-zwischen-modellen-flash-vs.-pro"><span class="header-section-number">7</span> Unterschiede zwischen Modellen (Flash vs.&nbsp;Pro)</a></li>
+  <li><a href="#token-limits-und-verarbeitungskapazität" id="toc-token-limits-und-verarbeitungskapazität" class="nav-link" data-scroll-target="#token-limits-und-verarbeitungskapazität"><span class="header-section-number">8</span> Token-Limits und Verarbeitungskapazität</a></li>
+  <li><a href="#tei-textkodierung-und-ki-gestützte-textanalyse" id="toc-tei-textkodierung-und-ki-gestützte-textanalyse" class="nav-link" data-scroll-target="#tei-textkodierung-und-ki-gestützte-textanalyse"><span class="header-section-number">9</span> TEI-Textkodierung und KI-gestützte Textanalyse</a></li>
+  <li><a href="#anwendung-der-ki-für-spezifische-aufgaben" id="toc-anwendung-der-ki-für-spezifische-aufgaben" class="nav-link" data-scroll-target="#anwendung-der-ki-für-spezifische-aufgaben"><span class="header-section-number">10</span> Anwendung der KI für spezifische Aufgaben</a></li>
+  <li><a href="#die-instruction-als-komplexe-anfrage" id="toc-die-instruction-als-komplexe-anfrage" class="nav-link" data-scroll-target="#die-instruction-als-komplexe-anfrage"><span class="header-section-number">11</span> Die “Instruction” als komplexe Anfrage</a>
+  <ul class="collapse">
+  <li><a href="#der-planungsprozess-der-ki" id="toc-der-planungsprozess-der-ki" class="nav-link" data-scroll-target="#der-planungsprozess-der-ki"><span class="header-section-number">11.1</span> Der Planungsprozess der KI</a></li>
+  <li><a href="#definition-des-schemas-durch-die-ki" id="toc-definition-des-schemas-durch-die-ki" class="nav-link" data-scroll-target="#definition-des-schemas-durch-die-ki"><span class="header-section-number">11.2</span> Definition des Schemas durch die KI</a></li>
+  <li><a href="#das-ergebnis-die-analyse" id="toc-das-ergebnis-die-analyse" class="nav-link" data-scroll-target="#das-ergebnis-die-analyse"><span class="header-section-number">11.3</span> Das Ergebnis: Die Analyse</a></li>
+  <li><a href="#interaktion-und-iteration-mit-dem-plan" id="toc-interaktion-und-iteration-mit-dem-plan" class="nav-link" data-scroll-target="#interaktion-und-iteration-mit-dem-plan"><span class="header-section-number">11.4</span> Interaktion und Iteration mit dem Plan</a></li>
+  </ul></li>
+  <li><a href="#seminarplan-und-ausblick" id="toc-seminarplan-und-ausblick" class="nav-link" data-scroll-target="#seminarplan-und-ausblick"><span class="header-section-number">12</span> Seminarplan und Ausblick</a></li>
+  <li><a href="#beispiele-für-mögliche-themen-und-aufgaben" id="toc-beispiele-für-mögliche-themen-und-aufgaben" class="nav-link" data-scroll-target="#beispiele-für-mögliche-themen-und-aufgaben"><span class="header-section-number">13</span> Beispiele für mögliche Themen und Aufgaben</a></li>
+  <li><a href="#organisatorisches" id="toc-organisatorisches" class="nav-link" data-scroll-target="#organisatorisches"><span class="header-section-number">14</span> Organisatorisches</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./SeminarHerm1.html"><strong>Kapitel</strong></a></li><li class="breadcrumb-item"><a href="./SeminarHerm2.html">Hermeneutik im 21. Jahrhundert</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Hermeneutik im 21. Jahrhundert</h1>
+<p class="subtitle lead">Praktische Anwendung hermeneutischer Methoden mit KI-Werkzeugen</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Seminarprotokoll </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 24, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="ai-reporter" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="ai-reporter"><span class="header-section-number">1</span> AI-Reporter</h2>
+<p>Der “AI Reporter” zeichnet die Seminarinhalte auf und stellt sie direkt auf der <a href="https://hermeneutik.grassehoff.college">Seminar-Website</a> bereit. Dieses Werkzeug erzeugt automatisch Mitschriften, die alle wichtigen Punkte festhalten. Auf hermeneutik.grassehoff.college finden Sie jede Woche aktuelle Materialien, Resultate und Thesen. Die Seite dokumentiert unsere gemeinsame Arbeit fortlaufend. Mit Einverständnis der Studierenden zeigen wir dort auch ihre Projektarbeiten und Schwerpunktthemen, was den Austausch fördert.</p>
+<p>Google AI Studio bildet die zentrale Arbeitsumgebung des Seminars. Die klar strukturierte Oberfläche unterstützt hermeneutische Analysen und erleichtert den Arbeitsablauf.</p>
+</section>
+<section id="textgrundlage-und-übungsaufgabe" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="textgrundlage-und-übungsaufgabe"><span class="header-section-number">2</span> Textgrundlage und Übungsaufgabe</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/wegener.jpg" class="img-fluid figure-img"></p>
+<figcaption>Buchrezension über Alfred Wegener</figcaption>
+</figure>
+</div>
+<p>Eine Buchrezension aus der FAZ am Sonntag von Ulf von Rauchhaupt über den Polarforscher Alfred Wegener dient als Textgrundlage für die erste hermeneutische Übung. Dieser wissenschaftsjournalistische Review zeichnet sich durch besondere Qualität in Struktur, Sprache und Informationsvermittlung aus und wurde deshalb als exemplarisches Beispiel für die Analyse ausgewählt. Das durch einfaches Abspeichern der Webseite erzeugte PDF enthält zwar Werbung und andere irrelevante Elemente, doch die KI kann den eigentlichen Review-Text problemlos extrahieren und analysieren – eine Fähigkeit, die bereits die fortgeschrittenen Möglichkeiten moderner KI-Systeme demonstriert.</p>
+<p>Die hermeneutische Übungsaufgabe zielt darauf ab, diesen Artikel literaturwissenschaftlich zu strukturieren und seine charakteristischen Merkmale zu identifizieren. Im Mittelpunkt steht die Frage: Welche spezifischen Elemente machen einen wissenschaftsjournalistischen Review besonders lesbar und verständlich? Durch eine detaillierte Analyse soll eine differenzierte Typologie für wissenschaftliche Reviews entwickelt werden, die wesentliche Strukturmerkmale, stilistische Eigenschaften und argumentative Muster erfasst. Diese Typologie kann anschließend als Schema oder Template für eigene wissenschaftsjournalistische Arbeiten dienen.</p>
+</section>
+<section id="hermeneutische-zielsetzung-und-praktische-durchführung" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="hermeneutische-zielsetzung-und-praktische-durchführung"><span class="header-section-number">3</span> Hermeneutische Zielsetzung und praktische Durchführung</h2>
+<p>Das zentrale hermeneutische Ziel besteht in der systematischen Entwicklung einer Typologie für hochwertige Review-Texte durch genaue Analyse des Rauchhaupt-Artikels. Dabei werden sowohl formale Aspekte (Aufbau, Gliederung, Textlänge) als auch inhaltliche Merkmale (Argumentationsführung, Bewertungskriterien, Kontextualisierung) berücksichtigt. Diese umfassende Typologie soll als fundierte Vorlage für das Verfassen weiterer qualitativ hochwertiger Reviews in verschiedenen wissenschaftlichen Kontexten dienen.</p>
+<p>Die Übung gliedert sich in drei aufeinander aufbauende Schritte:</p>
+<ol type="1">
+<li>Erarbeitung eines detaillierten Schemas für Review-Besprechungen anhand des Rauchhaupt-Artikels mit Identifikation wesentlicher Strukturmerkmale und rhetorischer Strategien</li>
+<li>Auswahl eines anderen Buchinhalts oder einer bedeutsamen Episode aus der Wissenschaftsgeschichte, die sich für eine ähnliche Besprechung eignet</li>
+<li>Präzise Anleitung der KI mit Hilfe des erarbeiteten hermeneutischen Schemas zur Erstellung einer entsprechenden Buchbesprechung, die die identifizierten Qualitätsmerkmale aufweist</li>
+</ol>
+<p>Dieses anspruchsvolle Ziel erfordert konzentrierte analytische Arbeit – bereits das Erreichen von aussagekräftigen Teilzielen erfüllt die Erwartungen der Sitzung und demonstriert die Anwendung hermeneutischer Prinzipien in der Praxis.</p>
+<p>Die praktische Arbeit erfolgt in Google AI Studio mit seiner charakteristischen Spaltenstruktur und spezifischen Benutzerschnittstelle. Die linke Spalte enthält zwar derzeit für unser Vorhaben nicht unmittelbar relevante Elemente (“Stream”, “Video Gen”, “Starter Apps”), lässt sich aber zur besseren Übersicht problemlos ausblenden, was den Fokus auf die wesentlichen Arbeitsbereiche erleichtert.</p>
+<p>Die eigentliche Interaktion mit der KI findet im Chat-Modus statt, vergleichbar mit der Funktionsweise von ChatGPT, jedoch mit erweiterten Analysefunktionen. Der Chat-Prompt erscheint oben links im Mittelfeld, das Chat-Feld direkt darunter. Besonders wertvoll für die kontinuierliche Seminararbeit ist die “History”-Funktion, die alle früheren bearbeiteten Chats automatisch speichert und jederzeit den Überblick bei der Bearbeitung mehrerer paralleler Themen ermöglicht. Diese Chats bleiben dauerhaft konserviert und gehen selbst bei Sitzungsunterbrechungen nicht verloren.</p>
+</section>
+<section id="die-google-ai-studio-arbeitsumgebung" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="die-google-ai-studio-arbeitsumgebung"><span class="header-section-number">4</span> Die Google AI Studio Arbeitsumgebung</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/ai-studio.jpg" class="img-fluid figure-img"></p>
+<figcaption>Google AI Studio</figcaption>
+</figure>
+</div>
+<p>Die durchdachte Benutzeroberfläche gliedert sich in drei funktional distinkte Hauptbereiche:</p>
+<ul>
+<li><p>Das <strong>Hauptfenster</strong> (Mittelfeld) ermöglicht die direkte Chat-Interaktion mit der KI und zeigt sowohl die eigenen Eingaben als auch die KI-Antworten in chronologischer Reihenfolge. Hier findet der eigentliche Dialog mit dem System statt, der die hermeneutische Analyse vorantreibt.</p></li>
+<li><p><strong>Links</strong> erscheint die vollständige Historie aller bisher geführten Chats, die sich zum späteren Wiederaufruf persistent speichern lassen. Diese Chronik ermöglicht es, frühere Analyseschritte nachzuvollziehen oder erfolgreiche Prompt-Strategien in neuen Kontexten wiederzuverwenden.</p></li>
+<li><p>Ein kleiner Haken am unteren Ende der linken Spalte blendet diese bei Bedarf aus, was besonders bei der Arbeit auf kleineren Bildschirmen die Übersichtlichkeit verbessert.</p></li>
+<li><p><strong>Rechts</strong> bietet die “Run Settings”-Spalte alle Steuerelemente zur präzisen Konfiguration der KI-Modelle, einschließlich der Auswahl spezifischer Modellvarianten, Temperatureinstellungen und maximaler Tokenlimits.</p></li>
+</ul>
+<p>Die innovative Plattform bietet Zugang zu verschiedenen Google-Modellen mit unterschiedlichen Leistungsprofilen und Kostenstufen, die sich in ihren spezifischen Fähigkeiten und Anwendungsschwerpunkten deutlich unterscheiden. Im kompetitiven KI-Markt gelten die Google-Modelle aktuell als die preisgünstigsten Optionen bei vergleichbarer Leistungsfähigkeit.</p>
+</section>
+<section id="modelltypen-und-kostenstruktur" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="modelltypen-und-kostenstruktur"><span class="header-section-number">5</span> Modelltypen und Kostenstruktur</h2>
+<p>Die Google-Modelle tragen aktuell die Produktbezeichnungen “Preview” und “Pro” (früher unter dem Label “Experimental” verfügbar). Die Preview-Modelle stehen für Forschungs- und Bildungszwecke kostenfrei zur Verfügung, was ihre Nutzung im Seminarkontext besonders attraktiv macht.</p>
+<p>Bei den kostenpflichtigen Modellvarianten berechnet sich der Preis anhand von “Tokens” – einer Maßeinheit, die grob mit Wörtern vergleichbar ist, wobei auch Satzzeichen, Formatierungen und andere Elemente als separate Tokens zählen. Die Preiskalkulation differenziert sorgfältig zwischen Input (Nutzereingabe) und Output (KI-Antwort):</p>
+<ul>
+<li>Eine Million Input-Tokens kosten etwa 15 Cent, was selbst bei umfangreichen Texteingaben sehr kostengünstig bleibt</li>
+<li>Output-Tokens fallen mit dem etwa 20-fachen Preis deutlich stärker ins Gewicht, da hier die eigentliche Rechenleistung der Modelle zum Tragen kommt</li>
+<li>Die Tokenberechnung umfasst neben dem reinen Text auch sämtliche Anweisungen, Formatierungen und Bilder, was bei der Kostenplanung berücksichtigt werden sollte</li>
+</ul>
+<p>Die kostenfreien Preview-Modelle unterliegen bestimmten Rate-Limits, um eine faire Ressourcenverteilung zu gewährleisten. Bei der Gemini 2.5-Modellreihe betragen diese Limits 500 Anfragen pro Tag und 10 Anfragen pro Minute – Werte, die für die intensive Seminararbeit völlig ausreichen und keine praktischen Einschränkungen darstellen.</p>
+</section>
+<section id="grundlegende-fähigkeiten-der-ki-modelle" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="grundlegende-fähigkeiten-der-ki-modelle"><span class="header-section-number">6</span> Grundlegende Fähigkeiten der KI-Modelle</h2>
+<section id="sprachkompetenz" class="level3" data-number="6.1">
+<h3 data-number="6.1" class="anchored" data-anchor-id="sprachkompetenz"><span class="header-section-number">6.1</span> Sprachkompetenz</h3>
+<p>Die ursprünglichen KI-Modelle fokussierten sich ausschließlich auf Sprachverarbeitung und -generierung. Ihr umfangreiches Training zielte primär darauf ab, komplexe sprachliche Bedeutungen zu erfassen und vielfältige Instruktionen zu verstehen, um kontextuell passende und kohärente Textantworten zu generieren.</p>
+<p>Die faszinierende Entwicklungsgeschichte der Large Language Models (LLMs) wurzelt ursprünglich in der klassischen Übersetzungsarbeit und maschinellen Sprachverarbeitung. Das mehrschichtige Training erfolgte an diversen, sorgfältig kuratierten Sprachkorpora, wobei deutsche und lateinische Texte, insbesondere die für ihre Präzision bekannte Teubner Latine Edition, als maßgeblicher Qualitätsmaßstab dienten. Diese philologische Grundlage erklärt teilweise die bemerkenswerte Sprachkompetenz heutiger Modelle.</p>
+<p>Diese sophistizierten Modelle verfügen über ausgeprägte sprachliche Kompetenz und sprachliche Flexibilität, ohne jedoch eigentliches inhaltliches Fachwissen zu besitzen. Was in Interaktionen wie domänenspezifische Expertise wirkt, entsteht durch reine linguistische Musterreplikation und statistische Vorhersagen – eine wichtige Unterscheidung, die bei der kritischen Beurteilung von KI-Outputs stets berücksichtigt werden muss.</p>
+</section>
+<section id="reasoning-thinking" class="level3" data-number="6.2">
+<h3 data-number="6.2" class="anchored" data-anchor-id="reasoning-thinking"><span class="header-section-number">6.2</span> “Reasoning” (Thinking)</h3>
+<p>Fortgeschrittene Modelle, besonders in der leistungsfähigeren Pro-Variante, besitzen zusätzlich ausgereifte “Reasoning”- oder “Thinking”-Fähigkeiten, die über simple Sprachverarbeitung hinausgehen. Diese kognitive Komponente verbessert die inhaltliche Zuverlässigkeit erheblich, da einfachere Modelle zur problematischen “Halluzination” neigen – sie generieren stets eine vermeintlich plausible Antwort, selbst bei fundamentalem Wissensmangel.</p>
+<p>Die zusätzliche epistemische Komponente, in der Fachliteratur oft als “Computational Epistemology” bezeichnet, ermöglicht den systematischen Erwerb, die kritische Beurteilung und die logische Erschließung von Wissen aus gegebenen Prämissen. Diese Fähigkeit nähert sich schrittweise menschlichen Denkprozessen an, bleibt jedoch auf bestimmte Domänen beschränkt.</p>
+<p>Bei den Google-Modellen wird dieser komplexe Denkprozess nicht nur implizit durchgeführt, sondern explizit in einem separaten “Thinking”-Kasten transparent dargestellt. Diese ungewöhnliche Offenlegung interner Prozesse erlaubt Einblicke in die Arbeitsweise der KI. Die Modelle zerlegen komplexe Aufgabenstellungen methodisch in logische Teilschritte und lösen diese systematisch – eine Vorgehensweise, die menschlichen Problemlösungsstrategien erstaunlich ähnelt.</p>
+</section>
+<section id="multimodale-fähigkeiten" class="level3" data-number="6.3">
+<h3 data-number="6.3" class="anchored" data-anchor-id="multimodale-fähigkeiten"><span class="header-section-number">6.3</span> Multimodale Fähigkeiten</h3>
+<p>Die Gemini-Modellgeneration zeichnet sich durch ihre fortschrittliche gleichzeitige Verarbeitung verschiedener Informationstypen aus – insbesondere Text und Bild (einschließlich Video) werden nahtlos integriert. Diese ausgeprägte multimodale Fähigkeit ermöglicht insbesondere hochwertige OCR-Aufgaben (Optical Character Recognition) mit beeindruckender Genauigkeit.</p>
+<p>So lassen sich gescannte historische Dokumente oder Fotografien von Originalmanuskripten nicht nur mechanisch transkribieren, sondern auch strukturell analysieren, semantisch gliedern und bei Bedarf in moderne Sprachen übersetzen. Die Modelle identifizieren dabei layoutbezogene Elemente wie Kopfzeilen, Seitennummern, Haupttextblöcke und Fußnoten mit bemerkenswert hoher Präzision und kontextueller Einordnung.</p>
+</section>
+</section>
+<section id="unterschiede-zwischen-modellen-flash-vs.-pro" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="unterschiede-zwischen-modellen-flash-vs.-pro"><span class="header-section-number">7</span> Unterschiede zwischen Modellen (Flash vs.&nbsp;Pro)</h2>
+<p>Die verfügbaren Flash- und Pro-Modellvarianten unterscheiden sich in mehreren entscheidenden Dimensionen, die je nach Anwendungsfall sorgfältig abgewogen werden sollten:</p>
+<ul>
+<li><p><strong>Preisstruktur</strong>: Die kostengünstigen Preview-Modelle (Flash und Pro Preview) verursachen deutlich geringere Betriebskosten als die leistungsfähigere Pro-Version mit vollem Funktionsumfang. Für viele Standardanwendungen reichen die Preview-Modelle jedoch völlig aus.</p></li>
+<li><p><strong>Thinking-Fähigkeit</strong>: Der signifikanteste qualitative Unterschied liegt im Umfang und der Tiefe des “Thinking”-Sektors. Während Flash einfachere Reasoning-Aufgaben bewältigen kann, übertrifft die Pro-Version diese Fähigkeiten bei komplexen Denkaufgaben, mehrstufigen logischen Schlussfolgerungen und Analysen, die konzeptuelle Transferleistungen erfordern, deutlich.</p></li>
+<li><p><strong>Verarbeitungsgeschwindigkeit</strong>: Bei der Antwortgeschwindigkeit bietet Flash erhebliche Vorteile – es arbeitet etwa sechsmal schneller als die Pro-Variante, was besonders bei iterativen Prozessen oder zeitkritischen Anwendungen relevant sein kann.</p></li>
+<li><p><strong>Sprachliche Differenzierung</strong>: Interessanterweise korreliert die Sprachqualität nicht linear mit der Versionsnummer oder Aktualität der Modelle – ältere oder auf bestimmte Domänen spezialisierte Modellvarianten übertreffen neuere Generationen gelegentlich in Vielfalt, stilistischer Raffinesse und Nuancierung. Diese Beobachtung widerspricht der intuitiven Annahme einer stetigen Verbesserung über Modellgenerationen hinweg.</p></li>
+</ul>
+</section>
+<section id="token-limits-und-verarbeitungskapazität" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="token-limits-und-verarbeitungskapazität"><span class="header-section-number">8</span> Token-Limits und Verarbeitungskapazität</h2>
+<p>Die aktuellen Google-Modelle (Gemini 1.5) beeindrucken durch ihre revolutionär erhöhte Token-Kapazität von über einer Million (präzise: 1.048.576) Token pro Anfrage – eine bemerkenswerte tausendfache Steigerung gegenüber früheren technischen Beschränkungen, die noch vor wenigen Jahren als unüberwindbar galten.</p>
+<p>Diese dramatisch erweiterte Kapazität ermöglicht die umfassende Verarbeitung von etwa 500 Textseiten in einem einzigen Verarbeitungsdurchgang, was neue Anwendungsszenarien für die Analyse umfangreicher Dokumente eröffnet. Besonders bemerkenswert erscheint dabei die maximale Ausgabelänge (“Output Length”) von 65.000 Tokens, die konkurrierende Claude-Modelle mit ihren begrenzten 8.000 Tokens deutlich übertrifft. Durch diese Erweiterung lassen sich auch umfangreiche Vorlesungstranskriptionen, wissenschaftliche Aufsätze oder ganze Buchkapitel in einem Zug verarbeiten und analysieren, ohne sie künstlich fragmentieren zu müssen.</p>
+</section>
+<section id="tei-textkodierung-und-ki-gestützte-textanalyse" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="tei-textkodierung-und-ki-gestützte-textanalyse"><span class="header-section-number">9</span> TEI-Textkodierung und KI-gestützte Textanalyse</h2>
+<p>Die international anerkannte Text Encoding Initiative (TEI) hat sich über drei Jahrzehnte als führender Standard zur strukturierten Textauszeichnung in den Geisteswissenschaften etabliert. Mit Hilfe spezieller “Tags” in spitzen Klammern (ähnlich HTML/XML) markieren Wissenschaftler weltweit Texte nach einheitlichen Regeln, um strukturelle, semantische und interpretative Aspekte maschinell erfassbar zu machen.</p>
+<p>Die fortschrittlichen KI-Modelle kennen den umfangreichen TEI-Standard mit seinen zahlreichen Konventionen und können Texte entsprechend dieser etablierten wissenschaftlichen Praxis automatisch markieren und strukturieren. Besonders bemerkenswert: Die komplexe Anweisung erfolgt in natürlicher, alltagssprachlicher Form, wodurch einfache, unstrukturierte Rohtexte in wissenschaftlich wertvolle, strukturierte Dokumente mit präzisen semantischen Markierungen transformiert werden können.</p>
+</section>
+<section id="anwendung-der-ki-für-spezifische-aufgaben" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="anwendung-der-ki-für-spezifische-aufgaben"><span class="header-section-number">10</span> Anwendung der KI für spezifische Aufgaben</h2>
+<p>Die KI kann nicht nur existierende standardisierte TEI-Elemente anwenden, sondern auch projektspezifische, nicht-standardisierte Elemente nach individuellen Forschungsbedürfnissen identifizieren und konsistent markieren. So lassen sich beispielsweise zeitliche Einordnungen, geologische Beschreibungen, motivationspsychologische Aspekte eines Forschers oder methodologische Überlegungen differenziert erkennen und entsprechend ihrer semantischen Funktion klassifizieren.</p>
+<p>Dabei erhält die KI keine vorgefertigte, starre Lösungsschablone, sondern entwickelt selbständig einen überzeugenden Analyse- und Kategorisierungsplan zur Bewältigung der spezifischen Anforderung. Diese bemerkenswerte interpretative Flexibilität erweist sich als besonders wertvoll bei der Arbeit mit heterogenen historischen Quellen oder interdisziplinären Texten, wenn spezifische, nuancierte Forschungsfragen beantwortet werden müssen, die über standardisierte Kategorisierungsschemata hinausgehen.</p>
+</section>
+<section id="die-instruction-als-komplexe-anfrage" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="die-instruction-als-komplexe-anfrage"><span class="header-section-number">11</span> Die “Instruction” als komplexe Anfrage</h2>
+<p>Die anfängliche, oft relativ knappe Textanfrage (“Prompt”) wandelt sich im transparenten “Thinking Block” in methodisch durchdachte, explizite Lösungsschritte um. Der “Run”-Button führt diese komplexe, nun auch vorbereitende Maßnahmen und Qualitätssicherungsschritte umfassende Anfrage aus und initiiert die eigentliche Verarbeitung.</p>
+<section id="der-planungsprozess-der-ki" class="level3" data-number="11.1">
+<h3 data-number="11.1" class="anchored" data-anchor-id="der-planungsprozess-der-ki"><span class="header-section-number">11.1</span> Der Planungsprozess der KI</h3>
+<p>Die KI transformiert die gestellte Aufgabe in einen schrittweisen, im “Thinking Block” für Nutzende vollständig sichtbaren Planungsprozess, der Einblicke in die Herangehensweise des Systems erlaubt. Zunächst erfolgt die präzise Klärung des Ziels, der Rahmenbedingungen und der gewünschten Ergebnisformate – vergleichbar mit einer menschlichen Aufgabenanalyse.</p>
+<p>Eine typische Strukturanalyse eines wissenschaftlichen Texts umfasst mehrere logisch aufeinander aufbauende Phasen:</p>
+<ol type="1">
+<li>Vollständige OCR-Erkennung des vorliegenden PDF-Dokuments mit Filterung irrelevanter Elemente wie Werbung oder Seitenränder</li>
+<li>Systematische Identifikation struktureller und paratextueller Elemente wie Titel, Autor, Publikationsdatum, Zwischenüberschriften und Bildunterschriften</li>
+<li>Literaturwissenschaftlich fundierte Kategorisierung des narrativen Flusses, der Argumentationsstruktur und der rhetorischen Gestaltung des Textes</li>
+</ol>
+</section>
+<section id="definition-des-schemas-durch-die-ki" class="level3" data-number="11.2">
+<h3 data-number="11.2" class="anchored" data-anchor-id="definition-des-schemas-durch-die-ki"><span class="header-section-number">11.2</span> Definition des Schemas durch die KI</h3>
+<p>Im weiteren Planungsverlauf entwickelt die KI selbständig ein differenziertes Schema zur Textklassifikation mit spezifischen semantischen Tags wie “Temporal” für historische Zeitbezüge, “Geological” für geologische Themen oder “Methodological” für Diskussionen wissenschaftlicher Verfahren.</p>
+<p>Besonders faszinierend für die hermeneutische Arbeit erscheint die Möglichkeit, eigene interpretative Klassifikationskonventionen zu entwerfen, die genau die für die jeweilige Forschungsfrage interessanten Textaspekte systematisch hervorheben und in Beziehung setzen.</p>
+</section>
+<section id="das-ergebnis-die-analyse" class="level3" data-number="11.3">
+<h3 data-number="11.3" class="anchored" data-anchor-id="das-ergebnis-die-analyse"><span class="header-section-number">11.3</span> Das Ergebnis: Die Analyse</h3>
+<p>Das Ergebnis des komplexen Verarbeitungsprozesses präsentiert sich in einem übersichtlich strukturierten Block im anpassbaren Markdown-Stil mit vollständigen Metadaten zur Provenienz und einer differenzierten Textanalyse. Die Gliederung spiegelt den inhaltlichen und formalen Textaufbau wider und umfasst typischerweise essentielle Abschnitte wie Einleitung, bibliographische Details, historischen Kontext und thematische Unterteilungen mit Querverweisen.</p>
+</section>
+<section id="interaktion-und-iteration-mit-dem-plan" class="level3" data-number="11.4">
+<h3 data-number="11.4" class="anchored" data-anchor-id="interaktion-und-iteration-mit-dem-plan"><span class="header-section-number">11.4</span> Interaktion und Iteration mit dem Plan</h3>
+<p>Ein herausragendes Merkmal dieser fortschrittlichen Arbeitsumgebung liegt in der vollständigen Transparenz des Planungsprozesses für die Nutzenden. Der “Thinking Block” lässt sich direkt kopieren, modifizieren und anpassen, um spezifische Kategorien zu verfeinern, Formulierungen zu präzisieren oder konzeptuelle Ergänzungen vorzunehmen. Der überarbeitete Plan wird dann als neue Aufgabe eingegeben, was mehrfache iterative Optimierungen im hermeneutischen Zirkel ermöglicht.</p>
+</section>
+</section>
+<section id="seminarplan-und-ausblick" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="seminarplan-und-ausblick"><span class="header-section-number">12</span> Seminarplan und Ausblick</h2>
+<p>Die heutige Sitzung fokussiert die praktische Handhabung der AI Studio Umgebung und erste methodische Schritte der systematischen Textanalyse. Die zentrale hermeneutische Kernaufgabe besteht in der analytischen Erschließung eines exemplarischen Text-Templates, wie am Beispiel des Rauchhaupt-Artikels demonstriert, und der anschließenden kreativen Integration dieses strukturellen und stilistischen Wissens in die KI zur Erzeugung vergleichbarer Texte.</p>
+<p>Die grundlegenden Fragen des Seminars knüpfen direkt an die beiden fundamentalen hermeneutischen Säulen an, die in der vorigen Sitzung umfassend diskutiert wurden: erstens die tiefgreifende Interpretation von Texten, Kunstwerken oder Symbolen (Inhaltserschließung) und zweitens die reflektierte Auslegung dieser Interpretation (Inhaltsdarstellung und -vermittlung).</p>
+<p>In den kommenden drei Wochen konzentriert sich die praktische Übung auf den ausgewählten Rauchhaupt-Aufsatz und die systematische Entwicklung eines differenzierten Schemas für wissenschaftliche Rezensionen im digitalen Zeitalter. Der kollegiale Austausch über individuelle Erfahrungen, Erkenntnisse und Herausforderungen bei dieser Aufgabe bildet einen zentralen, diskursiven Bestandteil des Seminars und fördert die gemeinsame methodologische Reflexion.</p>
+<p>Eine intellektuell reizvolle alternative Aufgabenoption bietet die strukturanalytische Untersuchung eines exemplarischen Interviews zur Entwicklung eines transferfähigen Interview-Schemas. Hierbei stellt sich die methodisch interessante Frage, ob die KI ein vorliegendes Interview in eine neue, ansprechende und lesbare Form überführen kann, ohne den inhaltlichen Kern zu verfälschen.</p>
+</section>
+<section id="beispiele-für-mögliche-themen-und-aufgaben" class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="beispiele-für-mögliche-themen-und-aufgaben"><span class="header-section-number">13</span> Beispiele für mögliche Themen und Aufgaben</h2>
+<p>Das Seminar präsentiert verschiedene thematisch anspruchsvolle Möglichkeiten für eigenständige hermeneutische Projekte:</p>
+<ul>
+<li><p><strong>Historische Textanalyse</strong>: Akkadianische Quellen zum dramatischen Untergang des persischen Reiches aus der einzigartigen Perspektive eines babylonischen Astronomen während Alexanders Invasion. Diese faszinierende Perspektive erlaubt die Rekonstruktion wissenschaftlicher und kultureller Transformationsprozesse in Umbruchszeiten. Ziel bildet eine wissenschaftlich fundierte, zitierfähige Analyse unter präziser Einbeziehung relevanter Originalquellen und ihrer kontextuellen Einbettung.</p></li>
+<li><p><strong>Gedichtinterpretation</strong>: Tiefgehende Analyse eines ausgewählten Brecht-Gedichts, methodisch aufbauend auf einer klassischen Interpretation von Walter Jens (verfügbar möglicherweise aus einer aufschlussreichen Videoaufzeichnung der 1970er Jahre). Diese Meta-Interpretation wirft die methodologisch spannende Frage auf, ob die KI diese interpretative Vorlage als strukturelles und konzeptuelles Muster für weitere, eigenständige Gedichtanalysen produktiv nutzen kann.</p></li>
+<li><p><strong>Bildinterpretation</strong>: Kunsthistorisch informierte Analyse von Leonardo da Vincis ikonischer Menschendarstellung durch systematische Synthese visueller Bildinformationen und kontextualisierender textueller Quellen zu einer kohärenten kunsthistorischen Interpretation, die formale, symbolische und kulturgeschichtliche Aspekte integriert.</p></li>
+</ul>
+<p>Die gewählten Aufgaben sollten mit zwei bis drei präzisen, wohlformulierten Prompts bearbeitbar sein und einen klar definierten, spezifischen Aspekt des gewählten Themas fokussieren, um Tiefe statt enzyklopädischer Breite zu erreichen.</p>
+</section>
+<section id="organisatorisches" class="level2" data-number="14">
+<h2 data-number="14" class="anchored" data-anchor-id="organisatorisches"><span class="header-section-number">14</span> Organisatorisches</h2>
+<p>Das nächste Seminartreffen findet in drei Wochen statt, bedingt durch die dazwischenliegenden Feiertage. Bis zu diesem Termin sollte die individuelle Themenwahl abgeschlossen und konzeptuell durchdacht sein. In der kommenden Sitzung werden die Themen verbindlich festgelegt, um kontinuierliches Arbeiten zu ermöglichen und weitere thematische Fluktuation zu vermeiden. Die erarbeiteten AI Studio Lösungen lassen sich über persistente Links teilen und im Plenum gemeinsam diskutieren. Dabei sollen die Studierenden nicht nur ihre konkreten Ergebnisse präsentieren, sondern auch ihre methodischen Erfahrungen, konzeptuellen Überlegungen und aufgetretene Herausforderungen kritisch reflektieren.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/grasshoff\.github\.io\/hermeneutik\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
